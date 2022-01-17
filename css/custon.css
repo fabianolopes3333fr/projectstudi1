@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  background-color: var(--secundary-color);
+}
+/*-------header----------*/
+#header {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 1rem;
+  
+ 
+  
+}
+header {
+  width: 100%;
+  background-color: var(--primary-color);
+  transition: background ease-out 0.1s;
+}
+header.active {
+  position: fixed;
+  background: transparent;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+#logo {
+  font-size: 1.7rem;
+  font-weight: 700;
+  
+}
+.logo a {
+  text-decoration: none;
+  color: var(--font-color4);
+  
+}
+.logo a i {
+  color: var(--font-color3);
+  
+
+}
+
+
+.btn-mobile {
+  display: none;
+}
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+  
+}
+.desktop {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+
+#menu a {
+  display: block;
+  padding: 0.5rem;
+  color: var(--font-color3);
+  text-decoration: none;
+  
+}
+#menu a:hover {
+  background: var( --secundari-btn);
+}
+
+.main-banner {
+  background: url(../assets/slider-bg.svg) no-repeat center ;
+  background-size:contain;
+  
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+
+}

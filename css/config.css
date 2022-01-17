@@ -1,0 +1,24 @@
+:root {
+  --primary-font: "Roboto", serif;
+  --font-color1: #4DBDFF;
+  --font-color2: #D5D7DE;
+  --font-color3: #ffffff;
+  --font-color4: #76DADA;
+  --font-color5: #333333;
+}
+:root {
+  --primary-color: #252830;
+  --secundary-color: #131417;
+  --color-utility: #010101;
+  --destaque1-color: #35373E;
+  --destaque2-color: #1D1E22;
+  --destaque3-color: #2C303A;
+  --destaque4-color: #1E1F26;
+  --section-color: #181A1E;
+}
+:root {
+  --primary-btn: #47CF73;
+  --secundari-btn: #444857;
+  --btn-hover: #034b03;
+  
+}

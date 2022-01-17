@@ -1,0 +1,55 @@
+
+.title {
+  font-family: var(--primary-font);
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  
+}
+.h1-title {
+  text-align: center;
+  width: 200px;
+  border-bottom: solid 4px var(--font-color1);
+  color: var(--font-color3);
+
+
+}
+.h3-title {
+  text-align: center;
+  color: var(--font-color3);
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.i-icon {
+  font-size: 50px;
+  text-align: center;
+  color: var(--font-color3);
+
+}
+.btn {
+  width: 200px;
+  height: 45px;
+  border-radius: 5px;
+  color: var(--font-color5);
+  background-color: var(--primary-btn);
+  cursor: pointer;
+  border: none;
+
+}
+.btn:hover {
+  color: var( --font-color3);
+  background-color: var( --btn-hover);
+}
+.center {
+  max-width: 1280px;
+  padding: 0 2%;
+  margin:0 auto;
+}
+
+
+.img-carol {
+  width: 100px;
+  height: 100px;
+}
