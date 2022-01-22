@@ -1,8 +1,8 @@
-# projectstudi1
+# Projectstudi1
 Évaluation d'entraînement - Dynamiser vos sites web avec Javascript
-## structure html
+## Structure html
 html structure started
-## section
+## Section
 structuring of all sessions
 ## css
 application of environment variables in styling
