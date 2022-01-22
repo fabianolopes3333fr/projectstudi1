@@ -1,4 +1,54 @@
+@media (max-width:780px) {
+  .display {
+    display: none;
+  }
+  .main-banner {
+    background-size: 680px;
+  }
+  .main-cards {
+    max-width: 300px;
+  }
+  .div-card-1, .div-card-2, .div-card-3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+    margin-left: 15px;
+  }/*************************/
+  .specialties {
+    height: auto;
+  }
+  .div-Service {
+    display: flex;
+     
+    
+  }
+  .box-contetent {
+    width: 200px;
+  }
+  .text-p {
+    font-size: 12px;
+  }
+  
+  .content {
+    height: auto;
+  }
+  .btn-resp {
+    max-width: 150px;
+  }
+  /**********************/
+  .div-contact {
+    display: inline-block;
+    
+    
+    
+  }
+  .w50-1, .w50-2 {
+    width: 100%;
+    height: auto;
+  }
 
+  
+}
 
 
 @media (max-width: 600px) {
@@ -59,5 +109,69 @@
   #nav.active #hamburger::after {
     transform: rotate(-135deg);
     top: -7px;
+  }/****************************/
+  .div-info {
+    background-size:90%;
+    
   }
+  .main-form h2 {
+    text-align: center;
+    color: var(--font-color3);
+    font-family: var(--primary-font);
+    font-size: 18px;
+  }
+  .main-form-2 input[type="email"],
+  .main-form-2 input[type="submit"] {
+    width: 400px;
+  }
+  /******************************/
+
+  .div-card-1, .div-card-2, .div-card-3 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+  }
+  .box-content {
+    width:100% ;
+    
+  }
+  
+  
+  /*****************************/
+  .specialties {
+    height: auto;
+  }
+  .div-Service {
+    display: flex;
+    flex-direction: column;
+     
+    
+  }
+  .box-contetent {
+    width: 400px;
+    margin-top:15px;
+  }
+  .text-p {
+    font-size: 12px;
+  }
+  
+  .content {
+    height: auto;
+  }
+  .btn-resp {
+    max-width: 150px;
+  }
+  
+  
+
+  /*************************/
+  .w50-1, .w50-2 {
+    width: 100%;
+    right: 15px;
+    left: 15px;
+    
+  }
+
 }

@@ -26,3 +26,37 @@ function toggleMenu(event) {
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
 
+// HEADER ANIMATION
+let box = document.getElementById('box');
+
+window.addEventListener('keydown', (e) => {
+  if(e.key == "ArrowRight"){
+    box.style.transform = 'translateX(900px) rotate(360deg)';
+  }
+
+  
+ 
+})
+window.addEventListener('keydown', (e) => {
+  if(e.key == "ArrowLeft"){
+    box.style.transform = 'translateX(-600px)';
+  }
+  
+  
+  
+})
+window.addEventListener('keydown', (e) => {
+  if(e.key == "ArrowDown"){
+    box.style.transform = 'translateY(00px)';
+
+  }
+  
+    
+  
+
+  
+  
+})
+
+
+

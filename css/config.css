@@ -14,6 +14,8 @@
   --destaque2-color: #1D1E22;
   --destaque3-color: #2C303A;
   --destaque4-color: #1E1F26;
+  --destaque5-color: #FFDD40;
+  --destaque6-color: #DE0000;
   --section-color: #181A1E;
 }
 :root {
@@ -21,4 +23,12 @@
   --secundari-btn: #444857;
   --btn-hover: #034b03;
   
+}
+:root {
+  --icon-color1: #DD4B25;
+  --icon-color2: #254BDD ;
+  --icon-color3: #FFDD40;
+  --icon-color4: #61DAFB;
+  --icon-color5: #4642D0 ;
+  --icon-color6: #366C9C; 
 }

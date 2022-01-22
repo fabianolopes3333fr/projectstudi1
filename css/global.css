@@ -1,5 +1,6 @@
 
 .title {
+  
   font-family: var(--primary-font);
   font-size: 30px;
   display: flex;
@@ -8,30 +9,49 @@
   
 }
 .h1-title {
+  margin-top: 45px;
+  margin-bottom: 45px;
   text-align: center;
-  width: 200px;
   border-bottom: solid 4px var(--font-color1);
   color: var(--font-color3);
-
-
+  font-family: var(--primary-font);
+}
+.h1-title:hover {
+  border-bottom: solid 4px #7E11F9;
 }
 .h3-title {
+  margin-bottom: 15px;
   text-align: center;
   color: var(--font-color3);
   font-size: 20px;
   font-weight: bold;
+  font-family: var(--primary-font);
 
 }
+.text-p {
+  text-shadow: #7E11F9;
+  text-align:justify;
+  font-family: var(--primary-font);
+ 
+}
 .i-icon {
+  margin-bottom: 15px;
+  display: block;
+  justify-content: center;
   font-size: 50px;
   text-align: center;
   color: var(--font-color3);
+  
 
 }
 .btn {
   width: 200px;
   height: 45px;
   border-radius: 5px;
+  text-align: center;
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: bold;
   color: var(--font-color5);
   background-color: var(--primary-btn);
   cursor: pointer;
@@ -52,4 +72,14 @@
 .img-carol {
   width: 100px;
   height: 100px;
+}
+.div-section {
+  display: flex;
+  align-items: center;
+  
+}
+.div-card {
+  display: flex;
+  height: 400px;
+  background-color: lawngreen;
 }
